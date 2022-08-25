@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+} 
+
+body{
+    color: #F1F2EE;
+    min-height: 100vh;
+    background-color: #848C8E;
+}
+
+form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
