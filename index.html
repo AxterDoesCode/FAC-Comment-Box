@@ -6,11 +6,13 @@
     </head>
     <body>
         <form id="commentBox">
-            <input type="text" placeholder="Username" id="username">
-            <textarea placeholder="Your comment here" id="comment"></textarea>
+            <input type="text" placeholder="Username" id="username-input">
+            <input type="email" placeholder="Email" id="email-input">
+            <input type="text" readonly value="0/140" id="character-count">
+            <textarea placeholder="Your comment here" id="comment-input"></textarea>
             <button>Submit</button>
         </form>
-        <div id="comments"></div>
+        <section id="comments"></section>
         <script src="index.js"></script>
     </body>
 </html> 

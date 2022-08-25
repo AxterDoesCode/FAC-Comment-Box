@@ -7,13 +7,43 @@ html, body {
 } 
 
 body{
-    color: #F1F2EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
     min-height: 100vh;
     background-color: #848C8E;
+}
+
+h1, p{
+    margin: 0;
 }
 
 form{
     width: 500px;
     display: flex;
     flex-direction: column;
+}
+
+form > *{
+    font-size: 1.5em;
+}
+
+#comment-input{
+    min-height: 100px;
+}
+
+#character-count{
+    color: #919191;
+}
+
+
+.comment-container{
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.red{
+    border: 3px solid red;
 }
